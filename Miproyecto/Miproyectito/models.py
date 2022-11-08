@@ -4,7 +4,7 @@ from django.db import models
 
 class familia(models.Model):
 
-    nombre = models.CharField()
-    apellido = models.CharField()
+    nombre = models.TextField()
+    apellido = models.TextField()
     edad = models.IntegerField()
     cumpleanios = models.DateField()

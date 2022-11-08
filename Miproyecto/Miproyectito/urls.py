@@ -1,7 +1,8 @@
 from django.urls import path
 
-from Miproyectito.views import mostrar_familia, include
+from Miproyectito.views import mostrar_familia
+
 urlpatterns = [
-    path("familia/", mostrar_familia)
+    path("", mostrar_familia)
     
 ]

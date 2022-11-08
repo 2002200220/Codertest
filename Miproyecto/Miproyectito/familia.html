@@ -9,7 +9,10 @@
 <body>
     <p> Mis Familiares son:</p>
 
-    (% for familiar in familia %)
-    <p>{{familia.nombre}}, {{familia.apellido}}. tiene {{familia.años}}, y nacio el {{familia.cumpleanios}}</p> 
+    {% for familiar in familia %}
+
+    <p>{{familiar.nombre}}, {{familiar.apellido}}. tiene {{familiar.años}}, y nacio el {{familiar.cumpleanios}}</p> 
+
+    {%endfor%}
 </body>
 </html>
